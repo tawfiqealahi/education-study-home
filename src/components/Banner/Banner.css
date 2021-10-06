@@ -1,0 +1,27 @@
+.banner {
+  background-image: url("../../images/hero.png"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  height: 85vh;
+  width: 100%;
+  
+  /* border: 1px solid red; */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.about-btn{
+  background-color: #c01313;
+  outline: none;
+  border: none;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
